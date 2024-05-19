@@ -1,0 +1,12 @@
+streamlit
+PyPDF2
+transformers
+torch
+streamlit-option-menu
+serpapi
+langchain
+google
+langchain-google-genai
+python-dotenv
+google.generativeai
+youtube_transcript_api 
