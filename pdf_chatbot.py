@@ -52,7 +52,7 @@ def fetch_links(query):
     params = {
         "engine": "youtube",
         "search_query": query,
-        "api_key": "c8b912a9727723424bffac813a03eb897d43cee8cfac0741c3b266a6cb8bef71"
+        "api_key": "your_serp_apikey"
     }
     search = GoogleSearch(params)
     results = search.get_dict()
@@ -129,7 +129,7 @@ def scholar_section():
     params = {
         "engine": "google_scholar",
         "q": query,
-        "api_key": "c8b912a9727723424bffac813a03eb897d43cee8cfac0741c3b266a6cb8bef71"
+        "api_key": "your_Serp_api_key"
     }
     search = GoogleSearch(params)
     results = search.get_dict()
